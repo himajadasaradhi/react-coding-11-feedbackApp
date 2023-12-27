@@ -1,0 +1,51 @@
+/* Write your CSS code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffebeb, #ffc0bb);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'roboto';
+}
+.content-bg {
+  background-color: white;
+  width: 500px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
+.question {
+  font-size: 28px;
+  text-align: center;
+}
+.love-emoji {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  margin-bottom: 0;
+}
+p {
+  text-align: center;
+}
+h1 {
+  margin-bottom: 0;
+}
+.emojis {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+button {
+  background-color: transparent;
+  border: none;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
